@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.sora{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.adlam {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*nav*/
+.bg{
+  background-color: #FFF9F4;
+}
+.main{
+  margin-left: 140px;
+}
+.nav-title{
+  color: #111111;
+  font-weight: 200px;
+  font-size: 26px;
+}
+.text{
+  color: #FFDC26;
+}
+.li-item{
+  text-align: center;
+  margin-bottom: ;
+}
+.notifac{
+  background-color: #FFFFFF;
+  color: #000000;
+  gap: 2px;
+  margin: 38px 38px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.src-btn{
+  margin-right: 140px;
+}
+.nav-btn-1{
+  background-color: #FFFFFF;
+  font-weight: 200px;
+  font-size: 20px;
+  padding:10px 30px;
+  border-radius: 8px;
+}
+.nav-btn-2{
+  font-weight: 400px;
+  font-size: 20px;
+  background-color: yellow;
+  padding: 10px 30px ;
+  border-radius: 8px;
+}
+/*header*/
+.main-container{
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.title{
+  font-weight: 300px;
+  font-size: 55px;
+  margin-top: 100px;
+}
+.description{
+  font-weight: 300px;
+  font-size: 20px;
+  margin-top: 16px;
+  color: #11111170;
+}
+.section-btn{
+  background-color: #FFDC26;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin-top: 24px;
+  color: #111111;
+}
+/*Browse*/
+.Browse{
+  margin-left: 140px;
+  margin-top: 140px;
+  margin-bottom: 48px;
+  font-weight: 300px;
+  font-size: 36px;
+}
+.card-conteiner {
+  margin-left: 140px;
+  margin-right: 140px;
+  gap: 24px;
+}
+.card{
+  background-color: #F9DF8A;
+  border-radius: 12px;
+}
+.card-title{
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 71px;
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+.card-description{
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-right: 71px;
+  margin-top: 12px;
+  margin-bottom: 34px;
+  color: #000000;
+}
+.card-img{
+  margin-left: 72px;
+  margin-right: 76px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  
+}
+.card-img{
+  background-color: #FFF9F4;
+  border-radius: 50%;
+  border: 5px solid silver;
+}
