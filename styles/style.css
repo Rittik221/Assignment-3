@@ -126,3 +126,14 @@
   border-radius: 50%;
   border: 5px solid silver;
 }
+.section{
+  background-color: #FFF9F4;
+}
+.main-title-2{
+  font-weight: 300px;
+  font-size: 36px;
+  color: #111111;
+  margin-left: 140px;
+  margin-top: 139px;
+  margin-bottom: 48px;
+}
