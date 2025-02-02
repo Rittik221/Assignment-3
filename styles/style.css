@@ -19,6 +19,7 @@
 }
 .main{
   margin-left: 140px;
+  margin-right: 140px;
 }
 .nav-title{
   color: #111111;
@@ -53,7 +54,7 @@
 .nav-btn-2{
   font-weight: 400px;
   font-size: 20px;
-  background-color: yellow;
+  background-color: #FFDC26;
   padding: 10px 30px ;
   border-radius: 8px;
 }
@@ -64,13 +65,13 @@
 }
 .title{
   font-weight: 300px;
-  font-size: 55px;
+  font-size: 40px;
   margin-top: 100px;
 }
 .description{
   font-weight: 300px;
   font-size: 20px;
-  margin-top: 16px;
+  margin-top: 10px;
   color: #11111170;
 }
 .section-btn{
@@ -81,16 +82,17 @@
   color: #111111;
 }
 /*Browse*/
+.main-browse{
+  margin-left: 130px;
+}
 .Browse{
-  margin-left: 140px;
+  margin-left: 50px;
   margin-top: 140px;
   margin-bottom: 48px;
   font-weight: 300px;
   font-size: 36px;
 }
 .card-conteiner {
-  margin-left: 140px;
-  margin-right: 140px;
   gap: 24px;
 }
 .card{
@@ -100,19 +102,16 @@
 .card-title{
   font-weight: 300;
   font-size: 20px;
-  margin-left: 70px;
-  margin-right: 71px;
-  margin-top: 24px;
-  margin-bottom: 34px;
+  text-align: center;
 }
 .card-description{
   font-weight: 300;
   font-size: 16px;
-  margin-left: 70px;
-  margin-right: 71px;
-  margin-top: 12px;
+  text-align:center ;
   margin-bottom: 34px;
+  gap: 20px;
   color: #000000;
+  font-family: sora;
 }
 .card-img{
   margin-left: 72px;
@@ -124,7 +123,10 @@
 .card-img{
   background-color: #FFF9F4;
   border-radius: 50%;
-  border: 5px solid silver;
+  border: 5px solid mintcream;
+  margin-top: 50px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .section{
   background-color: #FFF9F4;
@@ -134,22 +136,26 @@
   font-size: 36px;
   color: #111111;
   margin-left: 140px;
+  margin-right: 140px;
   margin-top: 139px;
   margin-bottom: 48px;
 }
 .section{
   margin-top: 126px;
-  margin-left: 140px;
+  margin-left: 180px;
 }
 .main-title{
   font-weight: 300;
   font-size: 36px;
   margin-bottom: 47px;
-  margin-top: 140px;
+  margin-top: 14px;
 }
-.div-title{
-  margin-top: 100px;
+.price{
+  font-weight: 400;
+  font-size: 36px;
+  margin-left: 190px;
+  margin-top: 141px;
 }
-.div-description{
-  margin-top: 40px;
+.first-pet{
+  margin-right: 50px;
 }
