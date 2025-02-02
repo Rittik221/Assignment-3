@@ -4,22 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Assignment-3</title>
-  <!-- Google Fonts -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
-  <!-- DaisyUI -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles/style.css" />
-  <!-- Font Awesome -->
+
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 </head>
 <body class="sora adlam">
   <header>
-    <!-- Navigation Bar -->
     <nav class="bg">
       <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between h-16">
@@ -144,12 +139,10 @@
   </header>
 
   <main class="py-8">
-    <!-- Trending Pet Products Section -->
     <section class="section sora">
       <div class="max-w-7xl mx-auto px-4">
         <h3 class="adlam main-title text-2xl font-bold mb-6">Trending Pet Products</h3>
         <div class=" flex flex-col md:flex-row gap-6 items-center">
-          <!-- Featured Product -->
           <div class="bg-[#F9DF8A] p-6 rounded-2xl relative flex flex-col justify-between w-full md:w-[424px] h-[402px]">
             <h2 class="div-title text-2xl font-bold text-black">T-Shirt For Dogs</h2>
             <p class="div-description text-gray-700 text-sm my-4">
@@ -162,39 +155,32 @@
               <img class="w-48 h-48 object-contain" src="c1-assets/cute-pet-small.png" alt="Cute Pet" />
             </div>
           </div>
-          <!-- Product Grid -->
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 w-full md:w-[872px] h-auto p-6">
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="w-16 h-16 mb-2 bg-white" src="c1-assets/dog-cartoon.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
               <p class="text-gray-600 text-sm font-medium">$39.99</p>
             </div>
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="bg-white w-16 h-16 mb-2" src="c1-assets/fish-cartoon.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
               <p class="text-gray-600 text-sm font-medium">$39.99</p>
             </div>
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="bg-white w-16 h-16 mb-2" src="c1-assets/bird-cartoon.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
               <p class="text-gray-600 text-sm font-medium">$39.99</p>
             </div>
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="bg-white w-16 h-16 mb-2" src="c1-assets/pet-couch.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
               <p class="text-gray-600 text-sm font-medium">$39.99</p>
             </div>
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="bg-white w-16 h-16 mb-2" src="c1-assets/rabbit-cartoon.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
               <p class="text-gray-600 text-sm font-medium">$39.99</p>
             </div>
-            <!-- Product Card -->
             <div class="flex flex-col items-center p-4 border rounded-lg w-full max-w-[150px]">
               <img class="bg-white w-16 h-16 mb-2" src="c1-assets/pet-couch.png" alt="Pet Bed" />
               <p class="text-base font-semibold text-black">Pet Bed</p>
@@ -204,56 +190,58 @@
         </div>
       </div>
     </section>
-   <section class="main-pet ">
-    <h2 class="price">Everyday Low Price</h2>
-    <div class="first-pet flex flex-col md:flex-row justify-center gap-8 p-8">
-        <div class=" max-w-3xl	 p-6 rounded-2xl shadow-xl bg-gradient-to-br from-purple-300 to-blue-100 text-left relative flex ">
-            <div class="title-5 w-1/2">
-                <p class=" under-price text-xs uppercase text-gray-600 font-semibold">Under Price</p>
-                <p class=" text-xl font-bold mt-1">Pet Grooming Mitt</p>
-                <p class=" text-sm text-gray-500">(Easy Hair Removal)</p>
-                <p class="text-2xl font-bold text-black mt-3">$7.99</p>
-            </div>
-            <div class="w-1/2">
-                <img class="max-w-80	 rounded-xl" src="c1-assets/cute-dog-mid.png" alt="">
-            </div>
-        </div>
-        <div class="w-80 p-6 rounded-2xl shadow-xl bg-gradient-to-br from-yellow-200 to-orange-300 text-left relative flex ">
-            <div class="pets  w-1/2">
-                <p class="text-xl font-bold">T-Shirt for Dogs</p>
-                <p class="text-2xl font-bold text-black mt-3">$7.99</p>
-            </div>
-            <div class="w-1/2">
-                <img class=" pet-2 w-80 rounded-xl" src="c1-assets/cute-pet-mid.png" alt="">
-            </div>
-        </div>
-    </div>
-  </section>
-    </section>
-  </main>
-      <footer class="bg-yellow-200 text-gray-800 p-6 mt-12">
-          <div class="mt-6 flex justify-between max-w-4xl mx-auto text-sm">
-              <div>
-                  <h4 class="font-bold">Browse Pets</h4>
-                  <p>Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+    <section class="main-pet">
+      <h2 class="price text-center text-2xl font-bold mt-6">Everyday Low Price</h2>
+      <div class="first-pet flex flex-col md:flex-row justify-center gap-8 p-8">
+          <!-- First Product Card -->
+          <div class="max-w-3xl p-6 rounded-2xl shadow-xl bg-gradient-to-br from-purple-300 to-blue-100 text-left relative flex flex-col md:flex-row items-center">
+              <div class="title-5 md:w-1/2 w-full text-center md:text-left">
+                  <p class="under-price text-xs uppercase text-gray-600 font-semibold">Under Price</p>
+                  <p class="text-xl font-bold mt-1">Pet Grooming Mitt</p>
+                  <p class="text-sm text-gray-500">(Easy Hair Removal)</p>
+                  <p class="text-2xl font-bold text-black mt-3">$7.99</p>
               </div>
-              <div>
-                  <h4 class="font-bold">Quick Links</h4>
-                  <ul>
-                      <li><a href="#">Find a pet</a></li>
-                      <li><a href="#">Breeds</a></li>
-                      <li><a href="#">Contact us</a></li>
-                  </ul>
-              </div>
-              <div>
-                  <h4 class="font-bold">Follow Us</h4>
-                  <div class="flex gap-2">
-                    <img src="c1-assets/fb.png" alt="">
-                    <img src="c1-assets/twitter.png" alt="">
-                    <img src="c1-assets/google+.png" alt="">
-                  </div>
+              <div class="md:w-1/2 w-full flex justify-center">
+                  <img class="max-w-40 md:max-w-80 rounded-xl" src="c1-assets/cute-dog-mid.png" alt="Pet Grooming Mitt">
               </div>
           </div>
-      </footer>
+          
+          <!-- Second Product Card -->
+          <div class="w-full md:w-80 p-6 rounded-2xl shadow-xl bg-gradient-to-br from-yellow-200 to-orange-300 text-left relative flex flex-col md:flex-row items-center">
+              <div class="pets md:w-1/2 w-full text-center md:text-left">
+                  <p class="text-xl font-bold">T-Shirt for Dogs</p>
+                  <p class="text-2xl font-bold text-black mt-3">$7.99</p>
+              </div>
+              <div class="md:w-1/2 w-full flex justify-center">
+                  <img class="pet-2 w-40 md:w-80 rounded-xl" src="c1-assets/cute-pet-mid.png" alt="T-Shirt for Dogs">
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <footer class="bg-yellow-200 text-gray-800 p-6 mt-12">
+      <div class="mt-6 flex flex-col md:flex-row justify-between max-w-4xl mx-auto text-sm text-center md:text-left">
+          <div class="mb-4 md:mb-0">
+              <h4 class="font-bold">Browse Pets</h4>
+              <p>Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+          </div>
+          <div class="mb-4 md:mb-0">
+              <h4 class="font-bold">Quick Links</h4>
+              <ul class="space-y-2">
+                  <li><a href="#" class="hover:text-blue-500">Find a pet</a></li>
+                  <li><a href="#" class="hover:text-blue-500">Breeds</a></li>
+                  <li><a href="#" class="hover:text-blue-500">Contact us</a></li>
+              </ul>
+          </div>
+          <div>
+              <h4 class="font-bold">Follow Us</h4>
+              <div class="flex justify-center md:justify-start gap-2 mt-2">
+                  <img class="w-6 h-6" src="c1-assets/fb.png" alt="Facebook">
+                  <img class="w-6 h-6" src="c1-assets/twitter.png" alt="Twitter">
+                  <img class="w-6 h-6" src="c1-assets/google+.png" alt="Google+">
+              </div>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>
